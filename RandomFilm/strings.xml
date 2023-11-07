@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RandomFilmK</string>
+    <string name="start">Смотреть</string>
+    <string-array name="movies">
+        <item>Inception</item>
+        <item>Truman Show</item>
+        <item>Mask</item>
+        <item>Matrix</item>
+        <item>Matrix 2 </item>
+        <item>Matrix 3 </item>
+        <item>Matrix 4 </item>
+        <item>Bee movie</item>
+    </string-array>
+</resources>
