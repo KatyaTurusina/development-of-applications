@@ -1,4 +1,4 @@
-package com.example.randomNumber
+package com.example.randomnumber
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
