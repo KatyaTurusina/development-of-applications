@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Подборка фильмов</string>
+    <string name="name">Название фильма</string>
+    <string name="genre">Жанр</string>
+    <string name="year">Год</string>
+    <string name="rating">IMDB рейтинг</string>
+    <string name="country">Страна</string>
+    <string name="producer">Продюсер</string>
+    <string name="main_roles">В главных ролях</string>
+    <string name="next">Дальше</string>
+    <string name="reset">Заново</string>
+    <string-array name="movies">
+    </string-array>
+</resources>

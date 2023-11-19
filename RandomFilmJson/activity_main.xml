@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="22sp" android:layout_marginLeft="15sp" android:textColor="#00FF00" android:layout_marginTop="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/genre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/genre" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/year" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/rating" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/country" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/producer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <TextView android:id="@+id/producer" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:layout_marginLeft="15sp" android:layout_marginBottom="20sp"/>
+
+    <TextView android:text="@string/main_roles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:textStyle="bold" android:layout_marginLeft="15sp" android:textColor="#7B68EE"/>
+    <ListView android:id="@+id/main_roles" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="12sp" android:entries="@array/movies" android:layout_marginBottom="20sp"/>
+
+    <Button android:text="@string/next" android:onClick="onNextClick" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="30sp"/>
+    <Button android:text="@string/reset" android:onClick="onClearClick" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="30sp"/>
+</LinearLayout>
