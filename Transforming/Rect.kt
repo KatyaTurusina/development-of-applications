@@ -27,8 +27,6 @@ class Rect(var x: Int, var y: Int, var width: Int, var height: Int) : Movable, T
         } else {
             x = -1 * (y - centerY) + centerX.also { y = x - centerX + centerY }
         }
-
-
     }
 
     override fun toString(): String {
